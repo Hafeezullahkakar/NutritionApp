@@ -1,0 +1,223 @@
+<app-navbar></app-navbar>
+
+<div class="min-h-screen bg-gray-100 p-4">
+  <div class="max-w-4xl mx-auto">
+    <!-- User Info -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+        Welcome, {{ userProfile.user?.name }}
+      </h2>
+      <p><strong>Email:</strong> {{ user?.email }}</p>
+      <p><strong>Goal:</strong> {{ userProfile.user?.goal }}</p>
+      <p>
+        <strong>Maintenance Calories:</strong>
+        {{ userProfile.user?.maintenanceCalories }} cals
+      </p>
+      <p>
+        <strong>Calories for Goal:</strong>
+        {{ userProfile.user?.goalCalories }} cals
+      </p>
+    </div>
+
+    <!-- Daily Intake Summary -->
+
+    <div
+      class="bg-white p-6 rounded-lg shadow-md"
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <h1 class="text-lg font-semibold mb-4 text-center py-5">
+        Today's Macros Remaining Intake
+      </h1>
+      <!-- Protein Component -->
+      <div class="relative size-40">
+        <svg
+          class="rotate-[135deg] size-full"
+          viewBox="0 0 36 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-200"
+            stroke-width="1"
+            stroke-dasharray="100 100"
+            stroke-linecap="round"
+          ></circle>
+
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-500"
+            stroke-width="2"
+            [attr.stroke-dasharray]="userProfile.user?.dailyProtein + ' 100'"
+            stroke-linecap="round"
+          ></circle>
+        </svg>
+
+        <div
+          class="absolute top-1/2 start-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+        >
+          <span class="text-4xl font-bold text-green-600">{{
+            userProfile.user?.dailyProtein | number : "1.0-0"
+          }}</span>
+          <span class="text-green-600 block">Protien</span>
+        </div>
+      </div>
+
+      <!-- Fats Component -->
+
+      <div class="relative size-40">
+        <svg
+          class="rotate-[135deg] size-full"
+          viewBox="0 0 36 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-200"
+            stroke-width="1"
+            stroke-dasharray="100 100"
+            stroke-linecap="round"
+          ></circle>
+
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-500"
+            stroke-width="2"
+            [attr.stroke-dasharray]="userProfile.user?.dailyFats + ' 100'"
+            stroke-linecap="round"
+          ></circle>
+        </svg>
+
+        <div
+          class="absolute top-1/2 start-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+        >
+          <span class="text-4xl font-bold text-green-600"
+            >{{ userProfile.user?.dailyFats | number : "1.0-0" }}g</span
+          >
+          <span class="text-green-600 block">Fats</span>
+        </div>
+      </div>
+
+      <!-- Carbs Component -->
+      <div class="relative size-40">
+        <svg
+          class="rotate-[135deg] size-full"
+          viewBox="0 0 36 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-200"
+            stroke-width="1"
+            stroke-dasharray="100 100"
+            stroke-linecap="round"
+          ></circle>
+
+          <circle
+            cx="18"
+            cy="18"
+            r="16"
+            fill="none"
+            class="stroke-current text-green-500"
+            stroke-width="2"
+            [attr.stroke-dasharray]="userProfile.user?.dailyCarbs + ' 100'"
+            stroke-linecap="round"
+          ></circle>
+        </svg>
+
+        <div
+          class="absolute top-1/2 start-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+        >
+          <span class="text-4xl font-bold text-green-600"
+            >{{ userProfile.user?.dailyCarbs | number : "1.0-0" }}g</span
+          >
+          <span class="text-green-600 block">Carbs</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Food Input Section -->
+    <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold mb-4">All Available Foods</h2>
+      <div>
+        <select
+          [(ngModel)]="foodInput"
+          name="foodInput"
+          class="block w-full py-2 border border-gray-300 rounded-lg shadow-sm"
+        >
+          <option selected>Select food Item</option>
+          <option *ngFor="let food of availableFoods" [value]="food.id">
+            {{ food.name }} ({{ food.identifier }})
+          </option>
+        </select>
+        <button
+          (click)="addFoodToTable(foodInput)"
+          class="mt-4 w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700"
+        >
+          Add Food
+        </button>
+      </div>
+    </div>
+
+    <!-- Selected Foods Table -->
+    <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold mb-4">Selected Foods</h2>
+      <table class="min-w-full border">
+        <thead>
+          <tr>
+            <th class="border px-4 py-2">Name</th>
+            <th class="border px-4 py-2">Type</th>
+            <th class="border px-4 py-2">Amount</th>
+            <th class="border px-4 py-2">Fats (g)</th>
+            <th class="border px-4 py-2">Carbs (g)</th>
+            <th class="border px-4 py-2">Protein (g)</th>
+            <th class="border px-4 py-2">Number of Item</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let food of selectedFoods">
+            <td class="border px-4 py-2">{{ food.name }}</td>
+            <td class="border px-4 py-2">{{ food.type }}</td>
+            <td class="border px-4 py-2">{{ food.amount }}</td>
+            <td class="border px-4 py-2">{{ food.fats }}</td>
+            <td class="border px-4 py-2">{{ food.carbs }}</td>
+            <td class="border px-4 py-2">{{ food.protein }}</td>
+            <td class="border px-4 py-2">
+              <input
+                type="number"
+                [(ngModel)]="food.quantity"
+                min="1"
+                class="w-16 border rounded-md text-center"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button
+        (click)="calculateNutrition()"
+        class="mt-4 w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700"
+      >
+        Calculate Nutrition
+      </button>
+    </div>
+  </div>
+</div>

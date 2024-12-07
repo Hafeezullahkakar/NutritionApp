@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\dtos\\nutritiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\dtos\\nutritiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\services\\nutritiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\services\\nutritiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\models\\nutrient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\models\\nutrient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|c:\\users\\hafee\\source\\repos\\nutritionapp\\backendapi\\nutritionappbackend\\models\\foodentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4114DC29-38AF-4E5D-8281-06F2C7B22624}|NutritionAppBackend\\NutritionAppBackend.csproj|solutionrelative:nutritionappbackend\\models\\foodentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NutritionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\DTOs\\NutritionDTO.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\DTOs\\NutritionDTO.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\DTOs\\NutritionDTO.cs",
+              "RelativeToolTip": "NutritionAppBackend\\DTOs\\NutritionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:03:51.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFoAAACAZ2ZmZmYgwFwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:46:24.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FoodEntry.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\FoodEntry.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Models\\FoodEntry.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\FoodEntry.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Models\\FoodEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:43:51.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\User.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAgZmZmZmY8wBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:43:18.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NutritionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Services\\NutritionDbContext.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Services\\NutritionDbContext.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Services\\NutritionDbContext.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Services\\NutritionDbContext.cs",
+              "ViewState": "AgIAAA0AAABAYGZmZmYawBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:07:36.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Program.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Program.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Program.cs",
+              "ViewState": "AgIAADUAAABAmJmZmZkjwD4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:02:57.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAE4AAAAAzczMzMwQwBIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:14:18.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\FoodItem.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Models\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\FoodItem.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Models\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:59:39.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Nutrient.cs",
+              "DocumentMoniker": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\Nutrient.cs",
+              "RelativeDocumentMoniker": "NutritionAppBackend\\Models\\Nutrient.cs",
+              "ToolTip": "C:\\Users\\hafee\\source\\repos\\NutritionApp\\BackendAPI\\NutritionAppBackend\\Models\\Nutrient.cs",
+              "RelativeToolTip": "NutritionAppBackend\\Models\\Nutrient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:52:00.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

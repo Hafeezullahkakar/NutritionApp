@@ -1,0 +1,46 @@
+<app-navbar></app-navbar>
+
+<div class="min-h-screen bg-gray-100 p-4">
+  <div class="max-w-4xl mx-auto">
+ 
+      <div *ngIf="loading" class="spinner flex justify-center items-center text-blue-600">
+        <svg xmlns="http://www.w3.org/2000/svg" class="animate-spin h-8 w-8 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 1 1 16 0 8 8 0 1 1-16 0z"></path>
+        </svg>
+        <span>Loading...</span>
+      </div>
+
+   
+      <div *ngIf="errorMessage" class="error text-red-500 text-center font-semibold mt-4">
+        {{ errorMessage }}
+      </div>
+
+
+      <table *ngIf="!loading && !errorMessage" class="food-table min-w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-6">
+        <thead class="bg-blue-600 text-white">
+          <tr>
+            <th class="px-4 py-2 text-left">Name of Item</th>
+            <th class="px-4 py-2 text-left">Type</th>
+            <th class="px-4 py-2 text-left">Amount</th>
+            <th class="px-4 py-2 text-left">Fats (g)</th>
+            <th class="px-4 py-2 text-left">Carbs (g)</th>
+            <th class="px-4 py-2 text-left">Protein (g)</th>
+            <th class="px-4 py-2 text-left">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let food of foodItems" class="hover:bg-gray-100">
+            <td class="px-4 py-2 border-b">{{ food.name }}</td>
+            <td class="px-4 py-2 border-b">{{ food.type }}</td>
+            <td class="px-4 py-2 border-b">{{ food.amount }}</td>
+            <td class="px-4 py-2 border-b">{{ food.fats }}</td>
+            <td class="px-4 py-2 border-b">{{ food.carbs }}</td>
+            <td class="px-4 py-2 border-b">{{ food.protein }}</td>
+            <td class="px-4 py-2 border-b">{{ food.identifier }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</div>
